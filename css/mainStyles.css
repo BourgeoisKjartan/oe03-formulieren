@@ -1,0 +1,38 @@
+body {
+      background-color: #9da39e;
+}
+
+fieldset {
+      background-color: lightgray;
+      border: 2px solid black;
+      padding: 20px;
+      margin: 5px;
+}
+
+label {
+      margin:10px;
+      width: 121px;
+      display: inline-block;
+}
+
+.smallCaps {
+      font-variant: small-caps;
+}
+
+input[type="submit"] {
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 20%;
+      margin-left: 10px;
+      border: 2px solid gray;
+}
+
+input[type="checkbox"] {
+      margin-left: -45px;
+}
+
+input:focus:required:invalid {
+      outline: 3px solid orange;
+      outline-offset: 1px;
+}
+

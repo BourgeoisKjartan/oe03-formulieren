@@ -1,1 +1,36 @@
-<!-- TBD -->
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="css/mainStyles.css">
+      <link rel="icon" href="images/html5_32.png" type="image/png" sizes="32x32">
+      <link rel="icon" type="image/png" href="../images/html5_16.png" sizes="16x16">
+      <link rel="icon" type="image/png" href="../images/html5_32.png" sizes="32x32">
+      <link rel="icon" type="image/png" href="../images/html5_96.png" sizes="96x96">
+      <title>Formulieren</title>
+</head>
+<body>
+      <h1>Oefeningen op formulieren</h1>
+      <h2>Registratie formulier</h2>
+      <form action="http://jkorpela.fi/cgi-bin/echo.cgi" method="post"></form>
+      <fieldset>
+            <label for="txtGebruikersnaam" class="smallCaps"><sup>*</sup>Gebruikersnaam</label>
+            <input type="text" name="Gebruikersnaam" id="txtGebruikersnaam" placeholder="Gebruikersnaam" required/><br />
+            <label for="txtPaswoord" class="smallCaps" ><sup>*</sup>Paswoord</label>
+            <input type="password" name="Paswoord" id="txtPaswoord" placeholder="Paswoord" required><br />
+<small><sup>*</sup>Verplichte velden</small>
+      </fieldset>
+      <input type="submit" value="Log In">
+      <h2>Feedback formulier</h2>
+      <form action="http://jkorpela.fi/cgi-bin/echo.cgi" method="post"></form>
+      <fieldset>
+            <h3>Gevolgde sessies</h3>
+            <label for="chkHtml">HTML Intro:</label>    <input type="checkbox" name="HTMLIntro" value="htmlG" id="chkHtml"/> <br/>
+            <label for="chkCss">CSS Intro:</label> <input type="checkbox" name="CSSintro" value="cssG" id="chkCss"/> <br/>
+            <label for="chkJs">JavaScript:</label> <input type="checkbox" name="JavaScript" value="jsG" id="chkJs"/> <br/>
+            <label for="chkJq">jQuery:</label> <input type="checkbox" name="jQuery" value="jqG" id="chkJq"/> <br/>
+            <small><sup>*</sup>Meerdere opties mogelijk</small>
+      </fieldset>
+</body>
+</html>
